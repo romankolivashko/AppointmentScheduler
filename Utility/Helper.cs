@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AppointmentScheduling.Helper
+namespace AppointmentScheduling.Utility
 {
     public static class Helper
     {
@@ -19,7 +19,7 @@ namespace AppointmentScheduling.Helper
                 new SelectListItem{Value=Helper.Admin, Text=Helper.Admin},
                 new SelectListItem{Value=Helper.Patient, Text=Helper.Patient},
                 new SelectListItem{Value=Helper.Doctor, Text=Helper.Doctor}
-            }
+            };
         }
     }
 }
